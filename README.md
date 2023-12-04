@@ -20,5 +20,7 @@ SST2 dataset은 'datasets'을 이용하여 load합니다.
    SST2_finetuning.py 파일을 실행한 후, IMDB_finetuning.py에서 model.load_state_dict을 활용하여 SST2로 fine-tuning했던 모델의 pt 파일을 불러오시면 됩니다.
 
 
+
+
 3가지 방법으로 훈련된 모델의 성능을 평가하기 위해 test.py 파일을 실행하면 됩니다.
 테스트 결과는 result_figure 폴더에 자동으로 저장됩니다.
